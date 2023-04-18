@@ -33,13 +33,20 @@
         android:textSize="30sp"
         android:textColor="#07e421"
         />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+
+    <Button
         android:id="@+id/tvPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0a0a"
         android:text="gg"
-        android:textSize="30sp"
+        android:onClick="openDial"
+        android:layout_gravity="center"
         android:textColor="#e40733"
-        />
+        android:textSize="30sp" />
+
+
+
+
 
 </LinearLayout>
