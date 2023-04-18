@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Provider" />
+
+    <Button
+        android:id="@+id/btnShowAll"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Pick Contact" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvId"
+        android:text="fngg"
+        android:textSize="30sp"
+        android:textColor="#0775e4"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvName"
+        android:text="gg"
+        android:textSize="30sp"
+        android:textColor="#07e421"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPhone"
+        android:text="gg"
+        android:textSize="30sp"
+        android:textColor="#e40733"
+        />
+
+</LinearLayout>
